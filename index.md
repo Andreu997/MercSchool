@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Andreu997/MercSchool/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Link to Bitbucket: [Repository](https://bitbucket.org/DefendTheCastle_AIProject/merc-school/overview)
 
 MercSchool is a game designed by Rodrigo de Pedro Lombao and Andreu Sacasas as a project for the Artificial Inteligence subject in UPC school with the objective of developing 3 different agents that interact between themselves and they sourroundings depending on their objectives and necessities.
 
@@ -127,9 +125,9 @@ Recovers stamina.
 
 ### Infirmary
 
-![Infermary.png](https://bitbucket.org/repo/Egox5rM/images/4269666369-Infermary.png)
-
 Recovers life points and a bit of stamina.
+
+![Infermary.png](https://bitbucket.org/repo/Egox5rM/images/4269666369-Infermary.png)
 
 # 4. Win-Lose condition and Score
 
@@ -206,3 +204,21 @@ This is the tree for the enemies and its blackboard:
 And this is the the inspector tree:
 
 ![InspectorTree.png](https://bitbucket.org/repo/Egox5rM/images/4179646943-InspectorTree.png)
+
+# 7. Instructions
+
+Camera Controls:
+
+WASD to move  
+Q/E to go UP/DOWN  
+R/F to look UP/DOWN
+
+# 8. Licence
+
+Copyright <2017> <Rodrigo de Pedro Lombao / Andreu Sacasas Velázquez>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
