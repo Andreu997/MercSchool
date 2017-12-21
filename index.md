@@ -7,6 +7,8 @@ MercSchool is a game designed by Rodrigo de Pedro Lombao and Andreu Sacasas as a
 # 1. Environment
 Champion school is played in a 2D world simulating the school’s building land. The map area is limited by boundaries.
 
+![MercSchool.png](https://bitbucket.org/repo/Egox5rM/images/2914641364-MercSchool.png)
+
 ## 1.1 Game areas
 
 The school area is divided in three areas with own features:
@@ -79,23 +81,55 @@ Killing enemies will grant money to the player based on the defeated enemy level
 
 # 3. Buildings
 
+## 3.2 Training Zones
+
 There are different buildings/places where the soldiers can train different abilities:
 
--Shooting Range: Improves ranged combat abilities.
+### Shooting Range
 
--Obstacle Course: Improves stamina and health.
+Improves ranged combat abilities.
 
--Boxing zone: Improves block and close combat damage.
+![Range.png](https://bitbucket.org/repo/Egox5rM/images/1262888750-Range.png)
 
--Building site (arena): A place where soldiers fight between themselves; improves a lot stamina, block and close combat damage in exchange of life points.
+### Obstacle Course
+
+Improves stamina and health.
+
+![Stamina.png](https://bitbucket.org/repo/Egox5rM/images/2154352920-Stamina.png)
+
+### Boxing zone
+
+Improves block and close combat damage.
+
+![Melee.png](https://bitbucket.org/repo/Egox5rM/images/2054448001-Melee.png)
+
+### Building site (arena)
+
+A place where soldiers fight between themselves; improves a lot stamina, block and close combat damage in exchange of life points.
+
+![Arena.png](https://bitbucket.org/repo/Egox5rM/images/2828972573-Arena.png)
+
+## Rest zones
 
 There are also other buildings that are not for training but for healing life points and stamina.
 
--Bedrooms: Where soldiers go to sleep; this recovers stamina and a bit of life points.
+### Bedrooms
 
--Dining hall: Recovers stamina.
+Where soldiers go to sleep; this recovers stamina and a bit of life points.
 
--Infirmary: Recovers life points and a bit of stamina.
+![Dorms.png](https://bitbucket.org/repo/Egox5rM/images/228931485-Dorms.png)
+
+### Rest zone
+
+Recovers stamina.
+
+![rest.png](https://bitbucket.org/repo/Egox5rM/images/4046535930-rest.png)
+
+### Infirmary
+
+![Infermary.png](https://bitbucket.org/repo/Egox5rM/images/4269666369-Infermary.png)
+
+Recovers life points and a bit of stamina.
 
 # 4. Win-Lose condition and Score
 
@@ -136,7 +170,7 @@ Bandit (at night):
 
 If idle, all do Wander.
 
-# Behabiour Trees and FSMs
+# 6. Behabiour Trees and FSMs
 
 ## Soldiers
   
