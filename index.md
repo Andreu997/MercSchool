@@ -32,22 +32,18 @@ Students are the core element in gameplay, as they are the only way to earn mone
 
 Admission
 
-·Every day, players will receive an amount of new recruits for the school. The amount changes based in the game’s progression.
-·New recruits start with some skills already learnt. The amount of skills changes based in the game’s progression.
-·Skill ranks and the level of the next recruits can be seen in the recruit’s pool.
-·Players can instantly admit a student in the recruit’s pool if they pay a certain amount of money.
-·Knowledge and learning
+·Every day, players will receive an amount of new recruits for the school. The amount changes based in the game’s progression.  
+·New recruits start with some skills already learnt. The amount of skills changes based in the game’s progression.  
+·Skill ranks and the level of the next recruits can be seen in the recruit’s pool.  
+·Players can instantly admit a student in the recruit’s pool if they pay a certain amount of money.  
+·Knowledge and learning  
 ·Students train five disciplines, each one with an XP bar and five attainable ranks displayed as stars:
 
--Melee combat: damage, precision, and knockback in close quarter combat.
-
--Ranged combat: damage, precision, and knockback in ranged combat.
-
--Block: chance to block incoming damage. Is tested against enemy precision.
-
--Health: amount of max Health Points.
-
--Stamina: amount of max Stamina Points.
+-Melee combat: damage, precision, and knockback in close quarter combat.  
+-Ranged combat: damage, precision, and knockback in ranged combat.  
+-Block: chance to block incoming damage. Is tested against enemy precision.  
+-Health: amount of max Health Points.  
+-Stamina: amount of max Stamina Points.  
 
 Training in one of the knowledge fields will raise the XP bar. Once the XP bar is full, a rank is gained and the bar is emptied. Students will not train maxed out disciplines.
 
@@ -100,3 +96,79 @@ There are also other buildings that are not for training but for healing life po
 -Dining hall: Recovers stamina.
 
 -Infirmary: Recovers life points and a bit of stamina.
+
+# 4. Win-Lose condition and Score
+
+Players lose if all player students are killed. If there are students on the recruit pool but the player does not call them before its last student dies, the game is lost anyway.
+
+To win, players must survive twenty minutes. Once the player has won, he can choose to end the game or keep playing. Player’s score is obtained by the amount of money earned through all the game and the number and level of surviving students.
+
+# 5. AI
+
+Is understood as atomic behavior the most basic and simple capabilities of an agent. The composition of atomic behaviors creates complex actions, and those are represented in the AI routines.
+
+## 5.1 Atomic behaviors
+
+Reach: the agent will try to reach a specific building.  
+Sleep: once home is reached, do nothing.  
+(Soldier) Train: the agent will improve its abilities for battle.  
+(Soldier) Hit: the agent will try to damage an adjacent entity.
+
+## 5.2 Complex behaviors
+
+(Soldier) Improve: find best available military building and train in it.  
+(Soldier) Attack: Reach nearest enemy, hit them, and reach them again if necessary.  
+(Instructor) Train soldiers: Make sure that the soldiers are training if they have some stamina left.
+
+## 5.3 AI routines (decisions ordered by priority)
+
+Soldier (at day): 
+- Improve.
+
+Instructor (at day): 
+- Patrol.
+
+Soldier (at night): 
+- Attack bandits.
+
+Bandit (at night): 
+- Attack the base.
+
+If idle, all do Wander.
+
+# Behabiour Trees and FSMs
+
+##Soldiers
+  
+This is the main FSM for the Character and the blackboard for the its system:
+
+![MainFSM.png](https://bitbucket.org/repo/Egox5rM/images/2257906766-MainFSM.png)
+
+
+The behaviour tree used while its day time:
+
+![Dibujo sin título.png](https://bitbucket.org/repo/Egox5rM/images/1785782186-Dibujo%20sin%20t%C3%ADtulo.png)
+
+
+And all the FSMs used in it:
+
+![FSMs.png](https://bitbucket.org/repo/Egox5rM/images/3781748777-FSMs.png)
+
+
+And his is the tree used when its night time:
+
+![NightTree.png](https://bitbucket.org/repo/Egox5rM/images/1907183039-NightTree.png)
+
+
+##Enemies
+
+This is the tree for the enemies and its blackboard:
+
+![EnemyTree.png](https://bitbucket.org/repo/Egox5rM/images/1071495327-EnemyTree.png)
+
+
+##Inspector
+
+And this is the the inspector tree:
+
+![InspectorTree.png](https://bitbucket.org/repo/Egox5rM/images/4179646943-InspectorTree.png)
