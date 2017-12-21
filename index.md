@@ -1,5 +1,3 @@
-Link to Bitbucket: [Repository](https://bitbucket.org/DefendTheCastle_AIProject/merc-school/overview)
-
 MercSchool is a game designed by Rodrigo de Pedro Lombao and Andreu Sacasas as a project for the Artificial Inteligence subject in UPC school with the objective of developing 3 different agents that interact between themselves and they sourroundings depending on their objectives and necessities.
 
 # 1. Environment
@@ -30,13 +28,16 @@ At night: - The school and the arena are closed, and the player is unable to bui
 
 Students are the core element in gameplay, as they are the only way to earn money and the survival of the school depend on their skills to defend it.
 
-Admission
+![Soldiers.png](https://bitbucket.org/repo/Egox5rM/images/356466722-Soldiers.png)
+  
+·New recruits start with some skills already learnt. The amount of skills changes based in the game’s progression.
 
-·Every day, players will receive an amount of new recruits for the school. The amount changes based in the game’s progression.  
-·New recruits start with some skills already learnt. The amount of skills changes based in the game’s progression.  
-·Skill ranks and the level of the next recruits can be seen in the recruit’s pool.  
-·Players can instantly admit a student in the recruit’s pool if they pay a certain amount of money.  
-·Knowledge and learning  
+·Skill ranks and the level of the next recruits can be seen in the recruit’s pool.
+
+·Players can instantly admit a student in the recruit’s pool if they pay a certain amount of money.
+
+·Knowledge and learning
+
 ·Students train five disciplines, each one with an XP bar and five attainable ranks displayed as stars:
 
 -Melee combat: damage, precision, and knockback in close quarter combat.  
@@ -65,8 +66,13 @@ Health is depleted when a student receives a hit, and is slowly regenerated over
 
 The instructors will make sure that the soldiers are training as they should; when the soldiers have low stamina (from 10 to 30%) sometimes they will stop training. If there is not an instructor around when that happens, the soldier could go to the bedroom and lose the rest of the day there.
 
+![Inspector.png](https://bitbucket.org/repo/Egox5rM/images/3016222712-Inspector.png)
+
 ## 2.3 Bandits
+
 Bandits are the main threat in the game; as if they overpower player students the game is lost.
+
+![Enemies.png](https://bitbucket.org/repo/Egox5rM/images/1623523835-Enemies.png)
 
 The number and level of the enemies increases over time, so players must be able to improve the school quick enough to even the enemy forces.
 
@@ -213,7 +219,13 @@ WASD to move
 Q/E to go UP/DOWN  
 R/F to look UP/DOWN
 
-# 8. Licence
+# 8. Useful links
+
+Link to Bitbucket: [Repository](https://bitbucket.org/DefendTheCastle_AIProject/merc-school/overview)
+
+Download latest repository: [Bitbucket download](https://bitbucket.org/DefendTheCastle_AIProject/merc-school/downloads/)
+
+# 9. Licence
 
 Copyright <2017> <Rodrigo de Pedro Lombao / Andreu Sacasas Velázquez>
 
