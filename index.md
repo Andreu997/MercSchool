@@ -2,36 +2,26 @@
 
 You can use the [editor on GitHub](https://github.com/Andreu997/MercSchool/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+MercSchool is a game designed by Rodrigo de Pedro Lombao and Andreu Sacasas as a project for the Artificial Inteligence subject in UPC school with the objective of developing 3 different agents that interact between themselves and they sourroundings depending on their objectives and necessities.
 
-### Markdown
+#1. Environment
+Champion school is played in a 2D world simulating the school’s building land. The map area is limited by boundaries.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##1.1 Game areas
+
+The school area is divided in three areas with own features:
 
 ```markdown
-Syntax highlighted code block
+School: this is where students will live, train and rest. The main purpose of this zone is to improve recruits skills. Players can spend money on new buildings only in this zone. This zone will never grant money to the player.
 
-# Header 1
-## Header 2
-### Header 3
+Arena: in this zone students will fight against competitors of other schools, granting money to the player if victorious. Functionality is further described in the Arena section.
 
-- Bulleted
-- List
+School outskirts: this zone includes the outside field of the school. At night, bandits will come to try to attack the school, which must be defended by the students.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+##1.2 Day/Night cycle:
 
-[Link](url) and ![Image](src)
-```
+During daytime: - The school and the arena are open, and students will focus on training or battling in the arena. While on day, the player will be able to decide if the soldiers train or rest depending on their health and stamina, and there will be the option to buy new soldiers if the player has enough money.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+At night: - The school and the arena are closed, and the player is unable to build or upgrade. - Bandits will attack the students, coming from the outskirts in waves. The students will focus on defeat them.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Andreu997/MercSchool/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
