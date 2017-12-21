@@ -138,7 +138,7 @@ If idle, all do Wander.
 
 # Behabiour Trees and FSMs
 
-##Soldiers
+## Soldiers
   
 This is the main FSM for the Character and the blackboard for the its system:
 
@@ -160,14 +160,14 @@ And his is the tree used when its night time:
 ![NightTree.png](https://bitbucket.org/repo/Egox5rM/images/1907183039-NightTree.png)
 
 
-##Enemies
+## Enemies
 
 This is the tree for the enemies and its blackboard:
 
 ![EnemyTree.png](https://bitbucket.org/repo/Egox5rM/images/1071495327-EnemyTree.png)
 
 
-##Inspector
+## Inspector
 
 And this is the the inspector tree:
 
